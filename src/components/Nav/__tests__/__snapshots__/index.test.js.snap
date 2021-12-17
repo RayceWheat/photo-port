@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav component matches snapshot 1`] = `
+exports[`Nav component matches snapshot DOM node structure 1`] = `
 <DocumentFragment>
   <header
     class="flex-row px-1"
@@ -24,7 +24,7 @@ exports[`Nav component matches snapshot 1`] = `
         class="flex-row"
       >
         <li
-          class="mx-2 navActive"
+          class="mx-2"
         >
           <a
             data-testid="about"
@@ -34,7 +34,7 @@ exports[`Nav component matches snapshot 1`] = `
           </a>
         </li>
         <li
-          class="mx-2"
+          class="mx-2 navActive"
         >
           <span>
             Contact
